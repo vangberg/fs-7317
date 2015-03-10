@@ -1,3 +1,5 @@
+GRANT ALL ON freeswitch.* TO 'freeswitch'@'localhost' IDENTIFIED BY 'sekret';
+
 CREATE TABLE `voicemailbox` (
   `vmbox_id` int(11) NOT NULL,
   `number` varchar(20) NOT NULL,
