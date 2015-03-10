@@ -21,7 +21,6 @@ if (db.nextRow()) {
 db.close();
 
 var tmpFile = "/tmp/" + session.uuid + ".wav";
-var finalFile = "/tmp/final-" + session.uuid + ".wav";
 
 if (session.ready()) {
   session.answer();
