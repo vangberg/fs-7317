@@ -27,6 +27,4 @@ if (session.ready()) {
   session.answer();
   session.recordFile(tmpFile, null, null, 300, 500, 300);
   session.hangup();
-
-  apiExecute("system", "mv " + tmpFile + " " + finalFile);
 }
